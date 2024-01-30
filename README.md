@@ -24,3 +24,12 @@ TIC-TAC-TOE
 
 ***
 
+ROCK-PAPER-SCISSOR
+
+
+![Screenshot (928)](https://github.com/AbhinayPatil/web-beginner/assets/89311783/6067ade3-d80d-4132-becf-3b4d3693045c)
+
+
+***
+
+
