@@ -42,4 +42,14 @@ CURRENCY EXCHANGER
 ***
 
 
+WEATHER-APP
+
+
+<img src="https://github.com/AbhinayPatil/web-beginner/assets/89311783/17d4d43d-bfcb-4a29-b250-a9168594e013" height=500px>
+
+
+***
+
+
+
 
