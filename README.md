@@ -67,6 +67,19 @@ QUIZ-APP
    ![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/022c27f6-58be-4127-8a67-63fd514854c1)
 
 
+***
+
+
+PASSWORD-GENERATOR
+
+
+![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/2ae03181-9278-4059-b693-b18a4e5946cc)
+
+
+***
+
+
+
 
 
 
