@@ -60,6 +60,14 @@ To-Do List
 ***
 
 
+QUIZ-APP
+
+
+![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/c92a296d-c265-4872-894d-8d158ee82aa2)
+   ![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/022c27f6-58be-4127-8a67-63fd514854c1)
+
+
+
 
 
 
