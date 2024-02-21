@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    padding-top: 100px;
+    padding-left: 100px;
+    min-height: 100vh;
+    height: 100%;
+    background-image: linear-gradient(145deg,#211951,#836FFF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heading img{
+    height: 100px;
+}
+.heading h1{
+    color:white;
+}
+
+.add-note-btn{
+    margin:20px 0 ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #15F5BA;
+    color: #211951;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-note-btn i{
+    margin-right: 10px;
+}
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.note{
+    background-color: #F0F3FF;
+    min-height: 100px;
+    min-width: 400px;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+}
+.delete-icon{
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
