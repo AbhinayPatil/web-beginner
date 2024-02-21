@@ -60,6 +60,7 @@ To-Do List
 ***
 
 
+
 QUIZ-APP
 
 
@@ -74,6 +75,15 @@ PASSWORD-GENERATOR
 
 
 ![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/2ae03181-9278-4059-b693-b18a4e5946cc)
+
+
+***
+
+
+NOTES-APP
+
+
+![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/02c8939b-a4b8-4088-9124-4e80c239f785)
 
 
 ***
