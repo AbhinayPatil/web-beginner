@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    height: 100%;
+    background-image:  linear-gradient(145deg,#4203a9,#90bafc);
+}
+.container{
+    margin: 200px 100px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+h1 span{
+    color: rgb(254, 254, 117);
+}
+
+.date-container{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.53);
+    width: fit-content;
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.date-container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+.date-container button{
+    padding: 10px 30px;
+    background-color: rgb(254, 254, 117);
+    border: none;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    margin-top: 40px;
+}
+p span{
+    color:rgb(254, 254, 117);
+    font-size: 24px;
+}
+
