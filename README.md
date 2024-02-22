@@ -99,6 +99,17 @@ AGE CALCULATOR
 ***
 
 
+QUOTE GENERATOR
+
+
+![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/8d31237d-eb54-413a-8b8d-a68916a82d39)
+
+
+
+***
+
+
+
 
 
 
