@@ -2,100 +2,102 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Courier New';
 }
 
-.container{
+header{
     background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)) , url(/images/kitchen.jpg);
-    background-position: center;
     height: 100vh;
     width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* navbar */
-.container nav{
+/* nav section */
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
 }
-.container nav h1{
+nav h1{
+    font-size: 32px;
     color: white;
-    font-size: 3rem;
 }
-.container nav ul{
-    list-style: none;
+
+nav ul{
     display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
-.container nav ul li a{
+nav ul li a{
     color: white;
-    font-size: 20px;
-    margin: 0px 20px;
+    margin: 0px 10px;
+    /* background-color: red; */
     position: relative;
 }
-.container nav ul li .active{
+
+nav ul a::after{
+    content: "";
+    background-color: teal;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition:0.3s;
+    border-radius: 5px;
+}
+nav ul a:hover::after{
+    width: 80%;
+}
+
+nav ul .active{
     color: teal;
 }
-.container nav ul li .active::after{
-    content: "";
-    background-color: teal;
-    height: 2px;
-    width: 80%;
-    left: 0px;
-    bottom: -5px;   
-}
 
-.container nav ul li a::after{
-    content: "";
-    background-color: teal;
-    height: 2px;
-    width: 0%;
-    left: 0px;
-    bottom: -5px;
-    position: absolute;
-    transition: 0.3s;
-}
-.container nav ul li a:hover::after{
-   width: 80%;
-}
 
 /* main section */
-.container .hero{
+
+#hero {
     margin-top: 25vh;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.hero h2{
-    color: white;
-    font-size: 2.5rem;
+
+#hero h1{
+    font-size: 32px;
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.hero p{
-    margin: 10px 20vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+#hero p{
+    margin: 5px 0px;
     text-align: center;
-    color: white;
+    width: 60vw;
 }
 
-.hero .btns{
-    display: flexbox;
-    margin: 10px 20px;
+#hero .buttons{
+    display: flex;
+    justify-content: space-between;
+    
 }
-.hero .btns #explore,#visit{
-    padding: 10px 15px;
+#hero .button{
+    text-align: center;
+    background-color: teal;
+    padding: 10px 20px;
+    margin: 30px 20px;
     border-radius: 30px;
-    font-size: 16px;
-    background-color: transparent;
-    color: white;
-    border: 2px solid teal;
 }
-.btns #explore:hover, #visit:hover{
-    background-color: teal; 
+#hero .button:hover{
     cursor: pointer;
+}
+
+#hero #visit-btn{
+    background-color: transparent;
+    border:2px solid teal;
 }
 
