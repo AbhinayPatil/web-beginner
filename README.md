@@ -109,6 +109,16 @@ QUOTE GENERATOR
 ***
 
 
+TAILWIND DEMO
+
+
+![image](https://github.com/AbhinayPatil/web-beginner/assets/89311783/b29aaf8f-832b-4d39-ab97-80fca27f109f)
+
+
+***
+
+
+
 
 
 
