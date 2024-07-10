@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignQ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header>
+        <h1>Capture Your Signature</h1>
+        <p>Use your mouse, trackpad, or touchscreen to draw your signature in the box below, then click the "Save Signature" button to download it as an image.</p>
+    </Header>
+    <main>
+        <!-- pen and other settings -->
+        <div class="settings">
+            <div>
+                <p>Pen Color</p>
+                <input type="color" id="pen-color" value="#ffffff">
+            </div>
+            <div>
+                <p>Background Color</p>
+                <input type="color" id="canvas-color" value="#001f3d">
+            </div>
+            <div>
+                <p>Pen Size</p>
+                <select name="pen-size" id="pen-size">
+                    <option value="1">1px</option>
+                    <option value="3">3px</option>
+                    <option value="5">5px</option>
+                    <option value="7">7px</option>
+                    <option value="10">10px</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- canvas and buttons -->
+         <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+            <div class="btn-container">
+                <button id="clear">Clear</button>
+                <button id="save">Save Signature</button>
+                <button id="upload">Upload Signature</button>
+            </div>
+         </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
