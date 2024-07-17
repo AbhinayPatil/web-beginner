@@ -1,4 +1,4 @@
-let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=ca63481d74004e56994710ae9f00b0ae"
+let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey="; //add api key
 
 
 function displayData(data){
