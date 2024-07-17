@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    padding: 5px 20px;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+header img{
+    color: white;
+    height: 30px;
+}
+
+main{
+    padding: 20px 8px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 50px;
+}
+/* tile/card css */
+.tile{
+    border: 2px solid rgba(0, 0, 0, 0.311);
+    display: flex;
+    flex-direction: column;
+}
+.tile .p{
+    padding: 8px 16px;
+}
+.tile .news-image{
+    height: 200px;
+    object-fit: cover;
+}
+
